@@ -4,7 +4,7 @@
   "description": "Artillery poc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "artillery run src/hello.yml"
   },
   "keywords": ["artillery"],
   "author": "Zetos Lima",
