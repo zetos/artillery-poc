@@ -7,3 +7,5 @@ A poc using artillery to load test a rest API.
 Requires the artillery package installed globally:  
 `$ npm install -g artillery`
 
+Or use artillery with npx
+
