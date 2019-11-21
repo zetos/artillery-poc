@@ -1,0 +1,14 @@
+config:
+  target: "http://localhost:4000"
+  phases:
+    - duration: 30
+      arrivalRate: 30
+scenarios:
+  - name: "Collector - save api json"
+    flow:
+      - post:
+          url: "/api"
+          json:
+            url: https://mipsum.herokuapp.com/paragrafos/1500
+            method: GET
+            ext: json
