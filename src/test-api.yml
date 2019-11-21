@@ -1,8 +1,10 @@
 config:
   target: "http://localhost:4000"
+  http:
+    timeout: 200
   phases:
     - duration: 30
-      arrivalRate: 30
+      arrivalRate: 50
 scenarios:
   - name: "Collector - save api json"
     flow:
